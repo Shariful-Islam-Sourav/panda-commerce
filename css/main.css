@@ -1,0 +1,43 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* Fonts */
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* Overrided CSS */
+.panda-products {
+  background: #f4f4f4;
+}
+.bg-panda-pink {
+  background: #feeae9;
+}
+.panda-btn {
+  font-size: 18px;
+  color: #fff;
+  background-image: linear-gradient(#ff589b, #ff136f);
+  border: none;
+  border-radius: 6px;
+  padding: 14px 30px;
+}
+.bg-panda-linear-yellow {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.bg-panda-linear-pink {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.bg-panda-linear-blue {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+.panda-input,
+.panda-btn-outline {
+  border-color: #eea9c4;
+}
+.panda-input {
+  border-right: none;
+}
+.panda-btn-outline {
+  border-left: none;
+}
+#subscription > .panda-input {
+  width: 82%;
+}
